@@ -21,13 +21,12 @@ This project is a web application built with Flask that compares two text files 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/similarities.git
-cd similarities
+git clone https://github.com/svetozarv/similarities.git
 ```
 
-2. Install the required packages:
+2. Install the required packages (flask, cs50, ntlk):
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
@@ -35,7 +34,7 @@ pip install -r requirements.txt
 
 1. Run the Flask application:
 
-```bash
+```
 python app.py
 ```
 
@@ -46,16 +45,7 @@ http://127.0.0.1:5000/
 ```
 
 3. Upload two text files, select the desired comparison algorithm, and submit the form to view the highlighted similarities.
-
-### Project Structure
-
-- `app.py`: Main application file.
 - `templates/`: Contains HTML templates for the application.
-  - `index.html`: Main page template.
-  - `compare.html`: Comparison results template.
-  - `error.html`: Error handling template.
-- `static/`: Static files (CSS, JS, images).
-- `helpers.py`: Contains helper functions for text processing.
 
 ### Comparison Algorithms
 
