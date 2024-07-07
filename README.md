@@ -1,6 +1,7 @@
 # Similarities
 
 This project is a web application built with Flask that compares two text files to identify similarities based on selected algorithms. It supports comparison by lines, sentences, or substrings and highlights the common elements in the provided text files.
+![image](https://github.com/svetozarv/similarities/assets/106545363/bd808358-0c14-46eb-9f44-496abb1e80ba)
 
 ## Features
 
