@@ -35,7 +35,7 @@ pip install -r requirements.txt
 1. Run the Flask application:
 
 ```
-python app.py
+flask run
 ```
 
 2. Open your web browser and navigate to:
@@ -45,9 +45,10 @@ http://127.0.0.1:5000/
 ```
 
 3. Upload two text files, select the desired comparison algorithm, and submit the form to view the highlighted similarities.
-- `templates/`: Contains HTML templates for the application.
+- `inputs/`: Contains files for comparison.
 
-### Comparison Algorithms
+
+## Comparison Algorithms
 
 The application supports three comparison algorithms to identify similarities between two text files: lines, sentences, and substrings.
 
@@ -67,20 +68,6 @@ Compares files for common substrings of a specified length, highlighting matchin
 
 Matching elements are highlighted to visually indicate similarities, making it easy to see where the text files overlap.
 
-### Helper Functions
-
-- `lines(file1, file2)`: Returns common lines between two text files.
-- `sentences(file1, file2)`: Returns common sentences between two text files.
-- `substrings(file1, file2, length)`: Returns common substrings of a specified length between two text files.
-
-### Error Handling
-
-The application handles various errors such as missing files, invalid files, and missing or invalid algorithm parameters. Custom error messages are displayed for user guidance.
-
-### Configuration
-
-- `TEMPLATES_AUTO_RELOAD`: Reload templates automatically when they are changed.
-- `Cache-Control`: Disable caching to ensure the most recent version of files is used.
 
 ## Acknowledgments
 
